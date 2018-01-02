@@ -1,0 +1,54 @@
+baseURL = "https://naumov.org/"
+languageCode = "en-us"
+title = "Naumov.org"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+[params]
+  name = "Maksim Naumov"
+  description = "Maksim Naumov - Software Engineer, DevOps Engineer."
+  shareImage = "images/background.jpg"
+  twitterHandle = "digital_crab"
+  favicon = "favicon.ico"
+  copyright = "&copy; 2018 Maksim Naumov"
+
+  # Section - Content
+  [params.content]
+    name = "Maksim Naumov"
+    tagline = "Engineer. Kart Racer. Nomad."
+    bio = ""
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "https://medium.com/@digitalcrab"
+
+      [[params.links.list1.link]]
+        text = "GitHub"
+        url = "https://github.com/digitalcrab"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "https://twitter.com/digital_crab"
+
+      [[params.links.list2.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/maksimn/"
+
