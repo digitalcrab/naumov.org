@@ -22,7 +22,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
 
     # Image
     [params.visual.image]
-      enable = true
+      enable = false
       file = "images/background.jpg"
       position = "center center"
 
